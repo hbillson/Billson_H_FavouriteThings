@@ -1,0 +1,18 @@
+// main css rules here
+
+body {
+    font-family: $main-font;
+    font-size: $main-font-size;
+    background-color: $main-bg-color;
+    color:$main-text-color;
+    margin: 0 0 0 0; 
+    border: 0;
+}
+
+#favthings_box {
+    margin-left:10%;
+    margin-right:10%;
+    background-color:white;
+    height:70vh;
+
+}

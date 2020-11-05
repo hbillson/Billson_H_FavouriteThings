@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "arial", "helvetica", sans-serif;
+  font-size: 16px;
+  background-color: gray;
+  color: darkgray;
+  margin: 0 0 0 0;
+  border: 0;
+}
+
+#favthings_box {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  height: 70vh;
+}
+/*# sourceMappingURL=master.css.map */
