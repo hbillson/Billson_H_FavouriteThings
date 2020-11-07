@@ -1,1 +1,46 @@
 // css for control buttons here
+
+.controls {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+    justify-items:center;
+    height:8vh;
+    width:28vw;
+    position:absolute;
+    top:55vh+3;
+    left:25vw;
+    margin-left:-10vw;
+    cursor: pointer;
+
+
+    .button {
+        display:inline-block;
+        background-color:$peach;
+        width:30%;
+        height:100%;
+        text-align:center;
+        border-radius:30px;
+        transition: 0.2s ease-in;
+
+        .buttonText {
+            text-align:center;
+            height:100%;
+            position:relative;
+            top:30%;
+            margin:auto;
+            left:0;
+            color:$yellow;
+            font-family:$title-font;
+            font-size:3vh;
+            letter-spacing:8px;
+        }
+    }
+
+    .button:hover {
+        cursor:pointer !important;
+        background-color:$teal;
+    }
+}

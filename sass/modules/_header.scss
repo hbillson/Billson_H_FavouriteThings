@@ -1,1 +1,22 @@
 // css for header here
+
+#main_header {
+    height:15vh;
+    width:100vw;
+    background-color:$peach;
+    text-align:center;
+    position:absolute;
+    top:0;
+
+
+    #title {
+        height:15vh;
+        line-height:15vh;
+        margin:auto;
+        color:$yellow;
+        font-size:70px;
+        font-family:$title-font;
+        letter-spacing:10px;
+        font-style:italic;
+    }
+}

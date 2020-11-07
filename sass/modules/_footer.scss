@@ -1,1 +1,20 @@
 // css for footer here
+
+#main_footer {
+    display:block;
+    height:10vh;
+    width:100vw;
+    background-color:$peach;
+    text-align:center;
+    bottom:0;
+    margin-top:150px;;
+
+    .copyright {
+        height:10vh;
+        line-height:10vh;
+        margin:auto;
+        color:$yellow;
+        font-size:1vw;
+        font-family:$main-font;
+    }
+}
