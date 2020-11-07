@@ -42,8 +42,11 @@ import { fetchData, postData } from "./modules/DataMiner.js";
         let currentContainer = thingSection.firstElementChild;
         let newData = dataArray[index].cloneNode(true);
         thingSection.replaceChild(newData, currentContainer);
+    
+    }
 
     buttons.forEach(button => button.addEventListener("click", changeDisplay));
+    
 
     // fetching the database 
     fetchData("./includes/functions.php").then(data => handleDataSet(data)).catch(err => {console.log(err)});
