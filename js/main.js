@@ -25,27 +25,7 @@ import { fetchData, postData } from "./modules/DataMiner.js";
             currentThingText[0].textContent = data[thing].Name; 
             currentThingText[1].src = data[thing].Image_URL;
             currentThingText[2].textContent = data[thing].Description;
-           // currentThingText[3].textContent = data[thing].MP3_URLS;
-
-        /*    let songURLS = data[thing].MP3_URLS.split(',');
-            let playerSRC = document.querySelectorAll(".msource");
-            let players = document.querySelectorAll(".player");
-            console.log(playerSRC);
-            console.log(players);
-
-            if (data[thing].MP3_URLS) {
-                currentThingText[3].classList.remove("hidden");
-                currentThingText[3].classList.add("showing");
-
-                if(currentThingText[3].classList.contains("showing")) {
-                        for (var i = 0; i < songURLS.length; i++) {
-                           // console.log(playerSRC[i]);
-                            let thisSong = playerSRC[i];
-                            thisSong.src = songURLS[i];
-                          }
-                }
-             
-            }  */
+      
             dataArray.push(currentThing);
         }
         init();
@@ -62,24 +42,6 @@ import { fetchData, postData } from "./modules/DataMiner.js";
         let currentContainer = thingSection.firstElementChild;
         let newData = dataArray[index].cloneNode(true);
         thingSection.replaceChild(newData, currentContainer);
-        //thingSection.appendChild(dataArray[index]);
-
-       // let newData =  thingSection.replaceChild(dataArray[index], currentData);
-      //  if (!thingSection.children.length == 0) {
-    //        thingSection.replaceChild(dataArray[index], currentData);
-      //  } else {
-       //     thingSection.appendChild(dataArray[index]);
-      //  }
-    }
-    // functions to control the display 
-
-   /* function backClicked() {
-        console.log("clicked the back button!", "\n");
-    }
-
-    function nextClicked() {
-        console.log("clicked the next button!", "\n");
-    }*/
 
     buttons.forEach(button => button.addEventListener("click", changeDisplay));
 
