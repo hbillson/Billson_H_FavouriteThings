@@ -10,8 +10,9 @@
 
     $result = array();
 
-    while($row = $runQuery->fetch(PDO::FETCH_ASS0C)) {
+    while($row = $runQuery->fetchAll(PDO::FETCH_ASSOC)) {
         $result[] = $row;
     }
 
-    return $result;
+    //return $result;
+    echo(json_encode($result));
