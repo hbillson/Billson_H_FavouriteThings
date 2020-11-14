@@ -36,6 +36,7 @@ import { fetchData, postData } from "./modules/DataMiner.js";
 
     function changeDisplay(event) {
         debugger;
+        console.log(this.id);
         var index = Array.from(buttons).indexOf(this);
         let currentContainer = thingSection.firstElementChild;
         let newData = dataArray[index].cloneNode(true);

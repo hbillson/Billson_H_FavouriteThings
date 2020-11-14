@@ -1,3 +1,10 @@
+@media screen and (min-width: 680px) {
+  body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
 .hidden {
   display: none;
 }
@@ -33,8 +40,8 @@ a {
 
 #favthings_box {
   height: auto;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 16vw;
+  margin-right: 16vw;
   background-color: #fffbcb;
   color: gray;
   position: relative;
@@ -52,13 +59,11 @@ a {
       -ms-flex-align: center;
           align-items: center;
   top: 15vh;
-  padding: 0px;
 }
 
 .favthings_section .favthing {
   top: 0;
   margin-top: 0;
-  padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,6 +100,7 @@ a {
 }
 
 .favthings_section .favthing .favthing_description {
+  margin-bottom: 10vh;
   padding: 3vw;
   border-radius: 40px;
   background-color: #a5d8d9;
@@ -120,7 +126,7 @@ a {
   line-height: 15vh;
   margin: auto;
   color: #fffbcb;
-  font-size: 70px;
+  font-size: 3vw;
   font-family: "BigNoodleTitling", "arial", sans-serif;
   letter-spacing: 10px;
   font-style: italic;
