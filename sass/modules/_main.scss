@@ -33,8 +33,8 @@ a {
 // note to self: remove extra font files from the folder if u dont use them
 #favthings_box {
     height:auto;
-    margin-left:20vw;
-    margin-right:20vw;
+    margin-left:16vw;
+    margin-right:16vw;
     background-color:$yellow;
     color:gray;
     position:relative;
@@ -43,7 +43,6 @@ a {
     flex-direction:column;
     align-items:center;
     top:15vh;
-    margin-bottom:10vh;
 }
 
 .favthings_section {
@@ -56,6 +55,7 @@ a {
         align-items:center;
         flex-direction:column;
         color:$teal;
+
 
         .favthing_title {
             height:8vh;
@@ -75,7 +75,6 @@ a {
         }
         .favthing_description {
             margin-bottom:10vh;
-
             padding:3vw;
             border-radius:40px;
             background-color:$lightteal;
