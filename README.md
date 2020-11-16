@@ -1,4 +1,4 @@
-![my cat, Kenobi!](images\kenobi.jpg "Kenobi")
+![my cat, Kenobi!](images/kenobi.jpg "Kenobi")
 
 # Haley's Favourite Things
 
