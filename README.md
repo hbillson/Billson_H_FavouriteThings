@@ -25,4 +25,3 @@ Developer: Haley Billson (dev.hb)
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ![header image] (images/cloudy_header.jpg "Clouds")
-
