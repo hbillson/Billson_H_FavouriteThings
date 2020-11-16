@@ -1,4 +1,4 @@
-![header image] (images/cloudy%20header.jpg "Clouds")
+![header image] (images/cloudy_header.jpg "Clouds")
 
 # Haley's Favourite Things
 
@@ -24,5 +24,5 @@ Developer: Haley Billson (dev.hb)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-![header image] (images/cloudy%20header.jpg "Clouds")
+![header image] (images/cloudy_header.jpg "Clouds")
 
