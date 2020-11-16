@@ -1,4 +1,4 @@
-![my cat, Kenobi!](images\kenobi.jpg "Kenobi")
+![header](images/cloudy%20header.jpg "Clouds")
 
 # Haley's Favourite Things
 
@@ -23,3 +23,5 @@ Developer: Haley Billson (dev.hb)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+![header](images/cloudy%20header.jpg "Clouds")
